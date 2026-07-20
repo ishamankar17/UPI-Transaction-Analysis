@@ -40,7 +40,7 @@ Total Transactions · Total Amount · Avg Transaction Amount · Success/Failure/
 ## 📸 Dashboard Preview
 
 **Page 1 – Executive Overview**
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/33f1b116-d7e0-4535-94a5-c99dc78182cc" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/33f1b116-d7e0-4535-94a5-c99dc78182cc" />
 
 
 **Page 2 – Transaction & Customer Analysis**
