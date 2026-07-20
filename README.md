@@ -40,20 +40,23 @@ Total Transactions · Total Amount · Avg Transaction Amount · Success/Failure/
 ## 📸 Dashboard Preview
 
 **Page 1 – Executive Overview**
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/33f1b116-d7e0-4535-94a5-c99dc78182cc" />
+<img width="1325" height="743" alt="image" src="https://github.com/user-attachments/assets/afc827aa-8417-4dc2-b93f-6d3b2e4168d8" />
 
 
 **Page 2 – Transaction & Customer Analysis**
 <img width="1313" height="745" alt="image" src="https://github.com/user-attachments/assets/b202b28b-5588-45c2-96eb-3f4699d3f037" />
 
 **Page 3 – State Performance**
-![State Performance](images/dashboard3.png)
+<img width="1322" height="746" alt="image" src="https://github.com/user-attachments/assets/cdae6c5a-63b2-4286-b31d-c928fad3f435" />
+
 
 **Page 4 – Economic Insights**
-![Economic Insights](images/dashboard4.png)
+<img width="1320" height="737" alt="image" src="https://github.com/user-attachments/assets/b55a254d-72b3-465d-aca5-5330f672cd63" />
+
 
 **Page 5 – NPCI Growth & Fraud**
-![NPCI Growth & Fraud](images/dashboard5.png)
+<img width="1326" height="742" alt="image" src="https://github.com/user-attachments/assets/387ffdcf-45e8-4f6d-89b1-06887f412368" />
+
 
 ## 🚀 Skills Demonstrated
 Data Cleaning · Data Modeling · SQL Joins & Window Functions · DAX · KPI Development · Interactive Dashboard Design · EDA
