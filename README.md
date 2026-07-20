@@ -37,6 +37,24 @@ Total Transactions · Total Amount · Avg Transaction Amount · Success/Failure/
 | Monthly NPCI Statistics | 12 Months |
 | State GDP & Population | 28 States |
 
+## 🧩 Data Model
+
+Star schema with a central fact table and supporting dimensions:
+
+- **Fact_Transactions** — 250K UPI transactions (amount, status, timestamp, IDs)
+- **Dim_State** — state name, region, GDP, population
+- **Dim_Date** — calendar table for time intelligence (MTD, YoY, weekday/weekend)
+- **Dim_Bank / Dim_Device / Dim_Merchant** — lookup dimensions for segmentation
+
+**Key relationships:**
+- `Fact_Transactions[sender_state] → Dim_State[state]` (many-to-one)
+- `Fact_Transactions[date] → Dim_Date[date]` (many-to-one)
+
+Sender and receiver state both link to `Dim_State`, so an inactive/second 
+relationship handles receiver-side analysis — avoided duplicating the 
+dimension table and kept the model single-directional to prevent 
+circular references.
+
 ## 📸 Dashboard Preview
 
 **Page 1 – Executive Overview**
